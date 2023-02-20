@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    background-color: rgb(3, 170, 162);
+    font-family: Apple Chancery;
+  }
+  
+  .top-bar {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 10px 20px;
+  background-color:rgb(33, 173, 143);
+    
+  }
+  
+  .top-bar nav {
+    display: grid;
+    align-content: center;
+    justify-content: right;
+  }
+  
+  .top-bar ul {
+    list-style: none;
+  
+    display: grid;
+    grid-template-rows: repeat (3, auto);
+    grid-gap: 10px;
+  }
+  
+  .top-bar li {
+    display: inline;
+    
+  }
+  
+  .top-bar a {
+  background-color: white;
+  padding: 3px 7px;
+  border-radius: 3px;
+  color: rgb(11, 80, 65);
+  text-decoration: none;
+  font-size: 0.9rem;
+  }
+  
+  
+  
+  .h1 {
+    color: rgb(66, 0, 128);
+    
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .h2 {
+    color: rgb(66, 0, 128);
+  
+    font-size: 70px;
+    text-align: center;
+    padding: 60px;
+  }
+  
+  .p {
+    color: rgb(66, 0, 128);
+    
+    text-align: center;
+    font-weight: 60px;
+  }
+  
+  
+  .h3 {
+    text-align: center;
+    padding: 50px;
+    
+    color: black;
+    font-size: 30px;
+    text-decoration: bold;
+  }
+  
+  .Introduction {
+    color: black;
+    padding: 30px;
+  
+  }
+  
+  .introduction-text {
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .portfolio {
+    background-color: 255, 225, 227;
+    padding-top: 20px;
+  padding: 20px;
+  }
+  
+  .section-title {
+    text-align:center;
+  margin-bottom: 20px;
+  
+  text-transform: uppercase;
+  
+  }
+  
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat (auto-fit, minmax(200, 1fr));
+    grid-gap: 10px
+    padding: 0 50px;
+  }
+  
+  .project {
+    border: solid 3px rgb(0, 42, 105);
+    border-radius: 5px;
+    padding: 30px;
+    background-color: white;
+  
+    display: grid;
+    grid-template-rows: 60px 1fr 120px 170px;
+  grid-gap: 10px;
+  }
+  
+  .project .project-title {
+    font-size: 1.5rem;
+  
+    display:grid;
+    align-content: center;
+  }
+  
+  .project .read-more {
+    background-color: (0, 42, 105);
+    color: palevioletred;
+    border-radius: 5px;
+  
+    display: grid;
+    place-items: centre;
+    text-decoration: none;
+  
+    width: 160px;
+  }
+  
+  .project .github-repo {
+    color: palevioletred;
+    text-align: center; 
+    
+  }
